@@ -4,19 +4,18 @@
   "description": "backend for cv-developer",
   "main": "index.ts",
   "scripts": {
-    "scripts": {
       "start": "ts-node index.ts",
       "start:dev": "tsnd index.ts",
       "build": "tsc",
       "test": "jest"
-    }
   },
   "author": "Marcin Korbecki",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.18.1",
     "cors": "^2.8.5",
+    "express": "^4.18.1",
     "express-async-errors": "^3.1.1",
+    "mongodb": "^4.7.0",
     "mysql2": "^2.3.3",
     "uuid": "^8.3.2"
   },
